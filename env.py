@@ -1,6 +1,6 @@
 import os
 
-PROJECT_PATH = '/root/mounted/projects/home_credit_default'
+PROJECT_PATH = os.path.dirname(__file__)
 DATA_PATH = os.path.join(PROJECT_PATH, 'data')
 
 ORIGINAL_DATA_PATH = os.path.join(DATA_PATH, 'original')
